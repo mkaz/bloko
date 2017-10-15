@@ -1,0 +1,12 @@
+
+/**
+ * Style for Bloko, an example Haiku template block
+ */
+
+
+/* "wp-block-YOUR-NAME" class is automatically to your block */
+.wp-block-mkaz-bloko {
+	margin: 64px 16px;
+	padding-left: 16px;
+	border-left: 4px solid #999;
+}
