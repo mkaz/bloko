@@ -7,7 +7,11 @@ For full explanation see blog post at: https://mkaz.tech/
 
 ## Usage
 
-During development, run `npm run dev`
+This block is more of an example, unlikely to be used in any real scenario. To
+install on your WordPress site.  Download repository (or zip) and extract to
+your plugins directory and activate.
 
-To create production block, run `npm run build`
+The block will show in the inserter within Gutenberg.
 
+Note: You will also need [Gutenberg
+plugin](https://github.com/wordpress/gutenberg) installed.
