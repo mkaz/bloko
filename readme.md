@@ -3,7 +3,7 @@
 
 A sample repository for explaining how to build Gutenberg blocks.
 
-For full explanation see blog post at: https://mkaz.tech/
+For full explanation see blog post: https://mkaz.blog/misc/creating-a-gutenberg-block/
 
 ## Usage
 
@@ -13,5 +13,4 @@ your plugins directory and activate.
 
 The block will show in the inserter within Gutenberg.
 
-Note: You will also need [Gutenberg
-plugin](https://github.com/wordpress/gutenberg) installed.
+Note: You will also need the [Gutenberg plugin](https://github.com/wordpress/gutenberg) installed.
