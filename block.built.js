@@ -87,15 +87,15 @@ registerBlockType('mkaz/bloko', {
 	category: 'common',
 	attributes: {
 		line1: {
-			type: 'string',
+			type: 'array',
 			source: children('.line1')
 		},
 		line2: {
-			type: 'string',
+			type: 'array',
 			source: children('.line2')
 		},
 		line3: {
-			type: 'string',
+			type: 'array',
 			source: children('.line3')
 		}
 	},
@@ -153,21 +153,21 @@ registerBlockType('mkaz/bloko', {
 			null,
 			wp.element.createElement(
 				'div',
-				{ 'class': 'line1' },
+				{ className: 'line1' },
 				' ',
 				line1,
 				' '
 			),
 			wp.element.createElement(
 				'div',
-				{ 'class': 'line2' },
+				{ className: 'line2' },
 				' ',
 				line2,
 				' '
 			),
 			wp.element.createElement(
 				'div',
-				{ 'class': 'line3' },
+				{ className: 'line3' },
 				' ',
 				line3,
 				' '

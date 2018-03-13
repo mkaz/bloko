@@ -14,15 +14,15 @@ registerBlockType( 'mkaz/bloko', {
 	category: 'common',
 	attributes: {
 		line1: {
-			type: 'string',
+			type: 'array',
 			source: children( '.line1' ),
 		},
 		line2: {
-			type: 'string',
+			type: 'array',
 			source: children( '.line2' ),
 		},
 		line3: {
-			type: 'string',
+			type: 'array',
 			source: children( '.line3' ),
 		}
 	},
@@ -73,9 +73,9 @@ registerBlockType( 'mkaz/bloko', {
 		const { attributes: { line1, line2, line3 } } = props;
 		return (
 			<div>
-				<div class="line1"> { line1 } </div>
-				<div class="line2"> { line2 } </div>
-				<div class="line3"> { line3 } </div>
+				<div className="line1"> { line1 } </div>
+				<div className="line2"> { line2 } </div>
+				<div className="line3"> { line3 } </div>
 			</div>
 		);
 	},
