@@ -4,7 +4,7 @@ Plugin Name:  Bloko
 Plugin URI:   https://github.com/mkaz/bloko
 Description:  A simple example block for Gutenberg
 Author:       Marcus Kazmierczak
-Author URI:   https://mkaz.tech/
+Author URI:   https://mkaz.blog/
 */
 
 
